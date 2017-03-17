@@ -1,0 +1,15 @@
+// C++
+
+// Init
+std::queue<int> q;
+// OR
+std::deque<int> mydeck(n, 0);
+std::queue<int> q(mydeck);
+
+// actions
+q.push();
+q.pop();  // void
+
+// Access
+q.front();  
+q.back();
